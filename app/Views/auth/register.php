@@ -4,7 +4,7 @@
 <div class="container">
     <div class="row justify-content-center">
 
-        <div class="card o-hidden border-0 shadow-lg my-5" style=" background-color: rgba(255, 255, 255, 0.2); backdrop-filter: blur(10px);">
+        <div class="card o-hidden border-0 shadow-lg my-5">
             <div class="card-body p-0">
                 <!-- Nested Row within Card Body -->
                 <div class="row">
@@ -36,17 +36,17 @@
                                     </select>
                                     </div>
                                 </div>
-                                <button type="submit" class="btn btn-light btn-user btn-block">
+                                <button type="submit" class="btn btn-primary btn-user btn-block">
                                     Register
                                 </button>
 
                             </form>
                             <hr>
                             <div class="text-center">
-                                <a class="small text-white" href="forgot-password.html">Forgot Password?</a>
+                                <a class="small" href="forgot-password.html">Forgot Password?</a>
                             </div>
                             <div class="text-center">
-                                <a class="small text-white" href="/">Already have an account? Login!</a>
+                                <a class="small" href="/">Already have an account? Login!</a>
                             </div>
                         </div>
                     </div>

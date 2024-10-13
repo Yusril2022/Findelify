@@ -3,7 +3,7 @@
 		<a href="#" class="brand">
 			<i class='bx bx-desktop'></i>
 
-			<span class="text">HiClub</span>
+			<span class="text">Findelify</span>
 		</a>
 		<ul class="side-menu top">
 			<li>
@@ -32,7 +32,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="chatReport">
+				<a href="/chatReport">
 				<i class='bx bxs-message-dots' ></i>
 					<span class="text">Chat Report</span>
 				</a>

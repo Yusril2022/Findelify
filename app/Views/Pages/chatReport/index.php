@@ -3,7 +3,7 @@
 		<a href="#" class="brand">
 			<i class='bx bx-desktop'></i>
 
-			<span class="text">HiClub</span>
+			<span class="text">Findelify</span>
 		</a>
 		<ul class="side-menu top">
 			<li>
@@ -26,7 +26,7 @@
 				</a>
 			</li>
 			<li>
-				<a href="talkReport">
+				<a href="/talkReport">
 				<i class='bx bxs-conversation'></i>
 					<span class="text">Talk Report</span>
 				</a>
