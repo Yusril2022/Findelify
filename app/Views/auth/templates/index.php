@@ -9,12 +9,6 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <style>
-        /* body {
-            background-image: url('https://images.unsplash.com/photo-1498050108023-c5249f4df085?q=80&w=2072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-        } */
         .typewriter {
             font-family: monospace;
             white-space: nowrap;
@@ -54,8 +48,8 @@
 
     <script>
         const text = "Welcome Back!";
-        const speed = 80; // Kecepatan dalam milidetik
-        const pause = 1500; // Waktu jeda sebelum mulai lagi
+        const speed = 80; 
+        const pause = 1500; 
         const element = document.querySelector('.typewriter');
         
         function type() {
@@ -67,20 +61,19 @@
                     index++;
                     setTimeout(typingEffect, speed);
                 } else {
-                    // Jeda sebelum mulai mengetik ulang
                     setTimeout(() => {
-                        element.style.opacity = '0'; // Memudarkan teks
+                        element.style.opacity = '0';
                         setTimeout(() => {
-                            element.innerHTML = ""; // Kosongkan teks
-                            element.style.opacity = '1'; // Kembalikan opacity
-                            type(); // Mulai mengetik lagi
-                        }, 500); // Waktu setelah memudarkan sebelum mengosongkan
+                            element.innerHTML = "";
+                            element.style.opacity = '1'; 
+                            type(); 
+                        }, 500); 
                     }, pause);
                 }
             }
 
-            element.innerHTML = ""; // Kosongkan teks sebelum mulai mengetik
-            typingEffect(); // Mulai efek mengetik
+            element.innerHTML = ""; 
+            typingEffect(); 
         }
 
         type(); 

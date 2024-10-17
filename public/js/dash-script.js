@@ -86,3 +86,50 @@ logoutLink.addEventListener('click', function(event) {
 		window.location.href = this.href;
 	}
 });
+
+
+// Modal
+function openModal() {
+	document.getElementById("discussionModal").style.display = "block";
+}
+
+function closeModal() {
+	document.getElementById("discussionModal").style.display = "none";
+}
+
+function sendMessage() {
+	var message = document.getElementById("chatMessage").value;
+	if(message.trim() !== "") {
+		// Create a new chat bubble dynamically
+		var chatContainer = document.querySelector('.chat-container');
+		var chatBubble = document.createElement('div');
+		chatBubble.className = 'chat-bubble right';
+
+		var avatar = document.createElement('img');
+		avatar.src = '/img/avatar2.png';
+		avatar.className = 'avatar';
+
+		var bubbleContent = document.createElement('div');
+		bubbleContent.className = 'bubble-content';
+		bubbleContent.innerHTML = `<p>${message}</p><span class="chat-time">Just now</span>`;
+
+		chatBubble.appendChild(avatar);
+		chatBubble.appendChild(bubbleContent);
+		chatContainer.appendChild(chatBubble);
+
+		// Clear the input field
+		document.getElementById("chatMessage").value = "";
+		chatContainer.scrollTop = chatContainer.scrollHeight;
+	} else {
+		alert("Please enter a message!");
+	}
+}
+
+// Close modal when clicking outside of modal-content
+window.onclick = function(event) {
+	var modal = document.getElementById("discussionModal");
+	if (event.target == modal) {
+		modal.style.display = "none";
+	}
+}
+

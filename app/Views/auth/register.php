@@ -13,15 +13,15 @@
                             <div class="text-center">
                                 <h1 class="h4 text-gray-900 mb-4">Register</h1>
                             </div>      
-                            <form class="user" action="/" method="post">
+                            <form class="user" action="auth/register" method="post">
                             <?= $validate->listErrors()?>
                                 <div class="form-group">
                                 <input name="nama" type="text" class="form-control form-control-user" id="exampleFirstName"
                                             placeholder="Name">
                                 </div>
                                 <div class="form-group">
-                                    <input name="username" type="text" class="form-control form-control-user" id="exampleInputUsername"
-                                        placeholder="Username">
+                                    <input name="email" type="email" class="form-control form-control-user" id="exampleInputEmail"
+                                        placeholder="Email">
                                 </div>
                                 <div class="form-group row">
                                     <div class="col-sm-6 mb-3 mb-sm-0">
@@ -30,10 +30,9 @@
                                     </div>
                      
                                     <div class="col-sm-6">
-                                         <select name="level" id="" class="form-control form-control-user" placeholder="Level">
-                                        <option value="user">User</option>
-                                        <option value="Admin">Admin</option>
-                                    </select>
+                                        <input type="password" name="passoword2" class="form-control form-control-user"
+                                            id="exampleRepeatPassword" placeholder="Repeat Password">
+                                    </div>
                                     </div>
                                 </div>
                                 <button type="submit" class="btn btn-primary btn-user btn-block">

@@ -13,25 +13,13 @@ class Pages extends BaseController
     public function user()
     {
         echo view('Layout/header');
-        echo view('Pages/userReport/index');
+        echo view('Pages/lostItem/index');
         echo view('Layout/footer');
     }
     public function grup()
     {
         echo view('Layout/header');
-        echo view('Pages/grupReport/index');
-        echo view('Layout/footer');
-    }
-    public function talk()
-    {
-        echo view('Layout/header');
-        echo view('Pages/talkReport/index');
-        echo view('Layout/footer');
-    }
-    public function chat()
-    {
-        echo view('Layout/header');
-        echo view('Pages/chatReport/index');
+        echo view('Pages/foundItem/index');
         echo view('Layout/footer');
     }
     public function manage()

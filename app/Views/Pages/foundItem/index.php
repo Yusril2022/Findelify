@@ -6,31 +6,30 @@
 			<span class="text">Findelify</span>
 		</a>
 		<ul class="side-menu top">
-			<li class="active">
-				<a href="#">
-					<i class='bx bxs-dashboard'></i>
+			<li>
+				<a href="/Pages">
+					<i class='bx bxs-dashboard' ></i>
 					<span class="text">Dashboard</span>
 				</a>
 			</li>
 			<li>
 				<a href="/lostItem">
-					<i class='bx bx-search-alt'></i>
+				<i class='bx bx-search-alt'></i>
 					<span class="text">Lost Item</span>
 				</a>
 			</li>
-			<li>
-				<a href="/foundItem">
-					<i class='bx bx-box'></i>
+			<li class="active">
+				<a href="#">
+				<i class='bx bx-box'></i>
 					<span class="text">Found Item</span>
 				</a>
 			</li>
 		</ul>
 		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-	
 		<ul class="side-menu">
 			<li>
 				<a href="/manageAccount">
-					<img src="/img/people.jpg" alt="Profile Image" class="profile-pic">
+				<img src="/img/people.jpg" alt="Profile Image" class="profile-pic">
 					<div style="display: flex; flex-direction: column;">
 						<span class="text">Yusril Mubaroq</span>
 						<span class="role">Karawang</span>
@@ -39,10 +38,10 @@
 			</li>
 			<li>
 				<a href="/" class="logout" id="logout-link">
-					<i class='bx bxs-log-out-circle'></i>
+					<i class='bx bxs-log-out-circle' ></i>
 					<span class="text">Logout</span>
 				</a>
-
+				
 			</li>
 		</ul>
 	</section>
@@ -54,17 +53,17 @@
 	<section id="content">
 		<!-- NAVBAR -->
 		<nav>
-			<i class='bx bx-menu'></i>
+			<i class='bx bx-menu' ></i>
 			<form action="#">
 				<div class="form-input">
 					<input type="search" placeholder="Search...">
-					<button type="submit" class="search-btn"><i class='bx bx-search'></i></button>
+					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
 				</div>
 			</form>
 			<input type="checkbox" id="switch-mode" hidden>
 			<label for="switch-mode" class="switch-mode"></label>
 			<a href="#" class="notification">
-				<i class='bx bxs-bell'></i>
+				<i class='bx bxs-bell' ></i>
 				<span class="num">8</span>
 			</a>
 		</nav>
@@ -74,20 +73,17 @@
 		<main>
 			<div class="head-title">
 				<div class="left">
-					<h1>Dashboard</h1>
+					<h1>Found Item</h1>
 					<ul class="breadcrumb">
 						<li>
-							<a href="#">Dashboard</a>
+							<a href="#">Item</a>
 						</li>
-						<li><i class='bx bx-chevron-right'></i></li>
+						<li><i class='bx bx-chevron-right' ></i></li>
 						<li>
-							<a class="active" href="#">Home</a>
+							<a class="active" href="#">Found</a>
 						</li>
 					</ul>
 				</div>
-				<a href="#" class="btn-download">
-					<span class="text">Lainnya</span>
-				</a>
 			</div>
 
 			<ul class="box-info">
@@ -104,9 +100,9 @@
 						<div class="text-container">
 							<h3>Kucing Pasar</h3>
 							<p class="description">Description: Bulu belang Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, iste id sequi quidem consequuntur provident iusto! Reiciendis ullam nisi modi ex, in placeat odio, porro magnam laboriosam veniam ut at.</p>
-							<p class="details"><strong>Tanggal Hilang:</strong> 12 October 2024</p>
-							<p class="details"><strong>Lokasi:</strong> Pasar Baru</p>
-							<p class="details"><strong>Kontak:</strong> 08188882881</p>
+							<p class="details"><strong>Date Lost:</strong> 12 October 2024</p>
+							<p class="details"><strong>Location:</strong> Pasar Baru</p>
+							<p class="details"><strong>Contact:</strong> 08188882881</p>
 						</div>
 					</div>
 
@@ -124,9 +120,9 @@
 						<div class="text-container">
 							<h3>Kucing Liar</h3>
 							<p class="description">Description: Bulu belang Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, iste id sequi quidem consequuntur provident iusto! Reiciendis ullam nisi modi ex, in placeat odio, porro magnam laboriosam veniam ut at.</p>
-							<p class="details"><strong>Tanggal Hilang:</strong> 12 October 2024</p>
-							<p class="details"><strong>Lokasi:</strong> Tanjung Pura</p>
-							<p class="details"><strong>Kontak:</strong> 08188882881</p>
+							<p class="details"><strong>Date Lost:</strong> 12 October 2024</p>
+							<p class="details"><strong>Location:</strong> Pasar Baru</p>
+							<p class="details"><strong>Contact:</strong> 08188882881</p>
 						</div>
 					</div>
 
@@ -144,9 +140,9 @@
 						<div class="text-container">
 							<h3>Kucing Kota</h3>
 							<p class="description">Description: Bulu belang Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, iste id sequi quidem consequuntur provident iusto! Reiciendis ullam nisi modi ex, in placeat odio, porro magnam laboriosam veniam ut at.</p>
-							<p class="details"><strong>Tanggal Hilang:</strong> 12 October 2024</p>
-							<p class="details"><strong>Lokasi:</strong> Galuh Mas</p>
-							<p class="details"><strong>Kontak:</strong> 08188882881</p>
+							<p class="details"><strong>Date Lost:</strong> 12 October 2024</p>
+							<p class="details"><strong>Location:</strong> Pasar Baru</p>
+							<p class="details"><strong>Contact:</strong> 08188882881</p>
 						</div>
 					</div>
 
@@ -175,12 +171,8 @@
 					</div>
 				</div>
 			</ul>
-
-
-
-
-
 		</main>
 		<!-- MAIN -->
 	</section>
 	<!-- CONTENT -->
+	

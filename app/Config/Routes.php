@@ -12,10 +12,8 @@ $routes->post('auth/register', 'Auth::register');
 $routes->post('auth/login', 'Auth::login');
 
 $routes->get('/Pages', 'Pages::index');
-$routes->get('/userReport', 'Pages::user');
-$routes->get('/grupReport', 'Pages::grup');
-$routes->get('/talkReport', 'Pages::talk');
-$routes->get('/chatReport', 'Pages::chat');
+$routes->get('/lostItem', 'Pages::user');
+$routes->get('/foundItem', 'Pages::grup');
 $routes->get('/manageAccount', 'Pages::manage');
 
 

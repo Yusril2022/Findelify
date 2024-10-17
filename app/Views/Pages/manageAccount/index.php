@@ -8,49 +8,40 @@
 		<ul class="side-menu top">
 			<li>
 				<a href="/Pages">
-					<i class='bx bxs-dashboard' ></i>
+					<i class='bx bxs-dashboard'></i>
 					<span class="text">Dashboard</span>
 				</a>
 			</li>
 			<li>
-				<a href="/userReport">
-				<i class='bx bxs-user'></i>
-					<span class="text">User Report</span>
+				<a href="/lostItem">
+					<i class='bx bx-search-alt'></i>
+					<span class="text">Lost Item</span>
 				</a>
 			</li>
 			<li>
-				<a href="/grupReport">
-				<i class='bx bxs-group'></i>
-
-					<span class="text">Grup Report</span>
-				</a>
-			</li>
-			<li>
-				<a href="/talkReport">
-				<i class='bx bxs-conversation'></i>
-					<span class="text">Talk Report</span>
-				</a>
-			</li>
-			<li>
-				<a href="/chatReport">
-				<i class='bx bxs-message-dots' ></i>
-					<span class="text">Chat Report</span>
+				<a href="/foundItem">
+					<i class='bx bx-box'></i>
+					<span class="text">Found Item</span>
 				</a>
 			</li>
 		</ul>
+		<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 		<ul class="side-menu">
-			<li  class="active">
+			<li class="active">
 				<a href="/manageAccount">
-					<i class='bx bxs-cog' ></i>
-					<span class="text">Manage Account</span>
+					<img src="/img/people.jpg" alt="Profile Image" class="profile-pic">
+					<div style="display: flex; flex-direction: column;">
+						<span class="text">Yusril Mubaroq</span>
+						<span class="role">Karawang</span>
+					</div>
 				</a>
 			</li>
 			<li>
 				<a href="/" class="logout" id="logout-link">
-					<i class='bx bxs-log-out-circle' ></i>
+					<i class='bx bxs-log-out-circle'></i>
 					<span class="text">Logout</span>
 				</a>
-				
+
 			</li>
 		</ul>
 	</section>
@@ -62,107 +53,100 @@
 	<section id="content">
 		<!-- NAVBAR -->
 		<nav>
-			<i class='bx bx-menu' ></i>
-			<a href="#" class="nav-link">Categories</a>
+			<i class='bx bx-menu'></i>
 			<form action="#">
 				<div class="form-input">
 					<input type="search" placeholder="Search...">
-					<button type="submit" class="search-btn"><i class='bx bx-search' ></i></button>
+					<button type="submit" class="search-btn"><i class='bx bx-search'></i></button>
 				</div>
 			</form>
 			<input type="checkbox" id="switch-mode" hidden>
 			<label for="switch-mode" class="switch-mode"></label>
 			<a href="#" class="notification">
-				<i class='bx bxs-bell' ></i>
+				<i class='bx bxs-bell'></i>
 				<span class="num">8</span>
-			</a>
-			<a href="#" class="profile">
-				<img src="/img/people.jpg">
 			</a>
 		</nav>
 		<!-- NAVBAR -->
 
 		<!-- MAIN -->
 		<main>
-			<div class="head-title">
-				<div class="left">
-					<h1>Manage Account</h1>
-					<ul class="breadcrumb">
-						<li>
-							<a href="#">Manage</a>
-						</li>
-						<li><i class='bx bx-chevron-right' ></i></li>
-						<li>
-							<a class="active" href="#">Account</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-
-
-
-			<div class="table-data">
-				<div class="order">
-					<div class="head">
-						<h3>Account</h3>
-						<i class='bx bx-search' ></i>
-						<i class='bx bx-filter' ></i>
+			<div class="profile-container">
+				<div class="profile-section">
+					<div class="profile-header">
+						<img src="/img/people.jpg" alt="Profile Picture" class="profile-user">
+						<div class="user-info">
+							<h1>Yusril Mubaroq</h1>
+							<p>Karawang</p>
+						</div>
+						<div class="user-stats">
+							<div class="stat-item">Lost Item <br> <strong>8</strong></div>
+							<div class="stat-item">Found Item <br> <strong>0</strong></div>
+							<div class="stat-item">Followers <br> <strong>20</strong></div>
+						</div>
 					</div>
-					<table>
-						<thead>
-							<tr>
-								<th>User</th>
-								<th>Date Report</th>
-								<th>Status</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>
-									<img src="/img/people.jpg">
-									<p>Yusril</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="/img/people.jpg">
-									<p>Yusril</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="/img/people.jpg">
-									<p>Yusril</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status process">Process</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="/img/people.jpg">
-									<p>Yusril</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status pending">Pending</span></td>
-							</tr>
-							<tr>
-								<td>
-									<img src="/img/people.jpg">
-									<p>Yusril</p>
-								</td>
-								<td>01-10-2021</td>
-								<td><span class="status completed">Completed</span></td>
-							</tr>
-						</tbody>
-					</table>
+
+					<div class="buttons">
+						<button class="btn lost">Lost</button>
+						<button class="btn found">Found</button>
+						<button class="btn add"><i class='bx bx-user-plus' style="font-size: 24px;"></i></button>
+						<button class="btn edit-profile">Edit Profile</button>
+					</div>
+
+					<div class="post-grid">
+						<div class="lost-item-card" onclick="openModal()">
+							<!-- Gambar barang di atas -->
+							<div class="image-container">
+								<img src="/img/kucing2.jpeg" alt="Lost Item" class="item-post">
+							</div>
+
+							<!-- Informasi barang di bawah -->
+							<div class="text-container">
+								<h3>Kucing Pasar</h3>
+								<p class="description">Description: Bulu belang Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, iste id sequi quidem consequuntur provident iusto! Reiciendis ullam nisi modi ex, in placeat odio, porro magnam laboriosam veniam ut at.</p>
+								<p class="details"><strong>Date Lost:</strong> 12 October 2024</p>
+								<p class="details"><strong>Location:</strong> Pasar Baru</p>
+								<p class="details"><strong>Contact:</strong> 08188882881</p>
+							</div>
+						</div>
+						<div class="lost-item-card" onclick="openModal()">
+							<!-- Gambar barang di atas -->
+							<div class="image-container">
+								<img src="/img/kucing2.jpeg" alt="Lost Item" class="item-post">
+							</div>
+
+							<!-- Informasi barang di bawah -->
+							<div class="text-container">
+								<h3>Kucing Pasar</h3>
+								<p class="description">Description: Bulu belang Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, iste id sequi quidem consequuntur provident iusto! Reiciendis ullam nisi modi ex, in placeat odio, porro magnam laboriosam veniam ut at.</p>
+								<p class="details"><strong>Date Lost:</strong> 12 October 2024</p>
+								<p class="details"><strong>Location:</strong> Pasar Baru</p>
+								<p class="details"><strong>Contact:</strong> 08188882881</p>
+							</div>
+						</div>
+
+
+						<div class="lost-item-card" onclick="openModal()">
+							<!-- Gambar barang di atas -->
+							<div class="image-container">
+								<img src="/img/kucing2.jpeg" alt="Lost Item" class="item-post">
+							</div>
+
+							<!-- Informasi barang di bawah -->
+							<div class="text-container">
+								<h3>Kucing Pasar</h3>
+								<p class="description">Description: Bulu belang Lorem ipsum dolor sit, amet consectetur adipisicing elit. Consectetur, iste id sequi quidem consequuntur provident iusto! Reiciendis ullam nisi modi ex, in placeat odio, porro magnam laboriosam veniam ut at.</p>
+								<p class="details"><strong>Date Lost:</strong> 12 October 2024</p>
+								<p class="details"><strong>Location:</strong> Pasar Baru</p>
+								<p class="details"><strong>Contact:</strong> 08188882881</p>
+							</div>
+						</div>
+					</div>
 				</div>
 			</div>
+
+
 		</main>
 		<!-- MAIN -->
 	</section>
 	<!-- CONTENT -->
-	
